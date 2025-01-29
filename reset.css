@@ -1,0 +1,32 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Define a base para o tamanho da fonte */
+}
+
+body {
+    line-height: 1.5; /* Melhora a legibilidade */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remove o peso bold padrão dos títulos */
+}
+
+ul, ol {
+    list-style: none; /* Remove os marcadores de listas */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+}
